@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body{
+     background-image: linear-gradient(to right, #773344, #D44D5C);
+     font-family: DM Serif Display;
+}
+
+main{
+    background-color: #F5E9E2;
+    border-radius: 5px;
+    margin: auto;
+    width: 600px;
+    margin-top: 200px;
+    box-shadow: 5px, 5px, 15px, #000000;
+}
+
+h1{
+    text-align: center;
+    color: #0B0014;
+}
+
+h2{
+    text-align: center;
+    color: #160027;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    margin-left: 620px;
+    color: #E3B5A4;
+}
+
+a:hover{
+    color: red;
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color-scheme: gray;
+}
+
+img{
+    width: 175px;
+    border-left: 600px;
+}
+
+ul{
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-align: center;
+}
+
+p{
+    color: white;
+}

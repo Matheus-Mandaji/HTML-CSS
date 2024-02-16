@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "droid" ;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+body{
+    background-color: #83E0AC;
+    margin:auto;
+    margin-top: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #195C37, #3BD882);
+    border: 0px;
+    padding: 1px;
+    padding-bottom: 20px;
+}
+
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    background-color: white;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+nav{
+    margin: 0px;
+}
+
+nav > a{
+    color: white;
+    margin-right: 1%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 0px;
+    font-size: 8px;
+    
+}
+
+nav > a:hover{
+    color: #83e0abb7;
+}
+
+
+main{
+    background-color: #83E0AC;
+    margin: 4%;
+    margin-top: 0%;
+    width: auto;
+    
+}
+
+h2.titulo{
+    color: #195C37;
+    background-color: #83e0ab7c;
+    font-family: droid;
+    font-size: 1.3em;
+}
+
+article > h1{
+    color: #195C37;
+    font-family: droid;
+    font-size: 2em;
+
+} 
+
+section#noticias{
+    margin: auto;
+    border: auto;
+    padding: auto;
+}
+
+article > p{
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 5%;
+}
+
+img#dandroid{
+    max-width: 100%;
+    height: auto;
+}
+
+img#bugdroid{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+div#video{
+    border: #195C37 1%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+
+div#lista{
+    background-color: #83e0ab7c;
+    border-radius: 15px;
+}
+
+div > h3{
+    color: white;
+    background-color: #3BD882;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+div > p{ 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    column-count: 2;
+    padding: auto;
+    font-family: 'Times New Roman', Times, serif
+}
+
+footer{
+    background-color: #195C37;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

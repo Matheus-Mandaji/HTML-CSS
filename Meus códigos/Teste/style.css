@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: gta;
+    src: url('fontes/pricedown\ bl.otf') format(opentype);
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --cor-fundo-letras: #e8adc47a;
+    --cor-01: #E8ADC4;
+    --cor-02: #8E679D;
+    --cor-03: #1A080E;
+    --cor-04: #f6c39f9f;
+    --cor-05: #D95C53;
+
+    --fonte-gta: 'pricedown' arial;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor-04);
+
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor-02), var(--cor-01));
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+header > h1{
+    font-family: 'gta';
+    font-size: 3em;
+    color: var(--cor-03);
+}
+
+header p{
+    font-size: 1.5em;
+    font-family: arial;
+    color: var(--cor-03);
+}
+
+nav{
+    background-color: var(--cor-01);
+    padding: 10px;
+}
+
+nav > a{
+    color: purple;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav > a:hover{
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 30px;
+    min-width: 900px;
+    max-width: 100px;
+    text-align: justify;
+}
+
+main h1{
+    color: var(--cor-03);
+    background-color: var();
+    padding: 10px;
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: var(--cor-fundo-letras);
+}
+
+main p{
+    font-family:'Merriweather', 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    text-indent: 3em;
+    text-align: justify;
+    margin: auto;
+}
+
+main strong{
+    color: var(--cor-03);
+    background-color: var(--cor-fundo-letras);
+}
+
+main a{
+    color: purple;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: white;
+    background-color: purple;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+main h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    font-size: 2.3em;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+div{
+    position: relative;
+    background-color: var(--cor-02);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+}
+
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img{
+    min-width: 500px;
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    padding: 20px 0px 20px 0px;
+}
+
+footer{
+    background-color: var(--cor-02);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: var(--cor-03);
+    text-align: center;
+}
