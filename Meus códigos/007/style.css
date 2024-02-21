@@ -36,5 +36,10 @@ header > a{
 }
 
 article{
-    
+    font-size: var(--fonte02);   
+    padding: 15px;
+}
+
+article.imagem{
+    background-color: aqua;
 }
